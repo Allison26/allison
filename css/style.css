@@ -1,0 +1,50 @@
+body {
+    background-color: #f5e15d;
+}
+
+h1 {
+   text-align: center;
+   color: red;
+}
+
+img{
+   float: left;
+   margin-right: 10px;
+}
+
+.hr_one {
+   border-style: none;
+   border-top: dotted 10px;
+   color: red;
+   width: 45px;
+}
+
+.hr_two {
+   border-style: none;
+   border-top: dotted 5px;
+   color: green;
+   width: 150px;
+}
+
+.p_1 {
+   font-size: 130%; 
+   font-family: sans-serif;
+}
+
+.p_2 {
+   font-size: 200%; 
+   color: green;
+}
+
+
+
+/** робить заголовки другого рівня зеленими **/
+h2 {
+        color: green;
+}
+
+/** але не робить зеленими елементи бічній панелі, які використовують колір свого батька **/
+
+#sidebar h2 {
+        color: inherit;
+}
